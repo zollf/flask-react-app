@@ -1,4 +1,5 @@
 # Flask App
+Basic flask up with mvc setup, templates, testing and pipeline.
 
 ## Start
 
@@ -27,3 +28,8 @@ Then to test run
 ```bash
 pytest
 ```
+
+## Todo:
+- db
+- integration test
+- deployment
