@@ -1,0 +1,9 @@
+venv/
+.env
+
+# Caches
+__pycache__
+.pytest_cache
+
+# Test Egg
+app.egg-info

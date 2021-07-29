@@ -1,0 +1,15 @@
+<!doctype html>
+
+{% block scripts %}
+  <link rel="stylesheet" href='{{ url_for("static", filename="index.css") }}' />
+  <script src='{{ url_for("static", filename="index.js") }}' ></script>
+{% endblock %}
+
+<title>Hello from Flask</title>
+<div id="body">
+  {% if name %}
+    <h1>Hello {{ name }}!</h1>
+  {% else %}
+    <h1>Hello, World!</h1>
+  {% endif %}
+</div>
