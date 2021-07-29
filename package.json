@@ -1,16 +1,14 @@
 {
   "name": "react-flask-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Flask with React",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
-    "test": "jest"
+    "test": "jest --maxWorkers=4"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "zollf",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
