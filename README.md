@@ -1,8 +1,9 @@
 # Flask App
 Basic flask up with mvc setup, templates, testing and pipeline.
 
-## Start
+## Installation
 
+### Install Flask
 MacOS/Linux
 ```bash
 python3 -m venv venv
@@ -15,6 +16,21 @@ Windows
 py -3 -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+### Install REact
+```bash
+yarn
+```
+
+## Start
+```bash
+venv\Scripts\activate
+flask run
+```
+
+```bash
+yarn dev
 ```
 
 ## Test

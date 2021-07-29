@@ -7,3 +7,12 @@ __pycache__
 
 # Test Egg
 app.egg-info
+
+# React
+node_modules
+app/views/static/dist/**
+!app/views/static/dist/.gitkeep
+
+
+# jest
+coverage
